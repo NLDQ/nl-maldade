@@ -1,0 +1,417 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <!-- utf-8 works for most cases -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Forcing initial-scale shouldn't be necessary -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Use the latest (edge) version of IE rendering engine -->
+    <title>"Maldade", de Jørn Lier Horst</title>
+    <!-- The title tag shows in email notifications, like Android 4.4. -->
+    <!-- Please use an inliner tool to convert all CSS to inline as inpage or external CSS is removed by email clients -->
+    <!-- important in CSS is used to prevent the styles of currently inline CSS from overriding the ones mentioned in media queries when corresponding screen sizes are encountered -->
+
+    <!-- CSS Reset -->
+    <style type="text/css">
+/* What it does: Remove spaces around the email design added by some email clients. */
+      /* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
+html,  body {
+	margin: 0 !important;
+	padding: 0 !important;
+	height: 100% !important;
+	width: 100% !important;
+}
+/* What it does: Stops email clients resizing small text. */
+* {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+/* What is does: Centers email on Android 4.4 */
+div[style*="margin: 16px 0"] {
+	margin: 0 !important;
+}
+/* What it does: Stops Outlook from adding extra spacing to tables. */
+table,  td {
+	mso-table-lspace: 0pt !important;
+	mso-table-rspace: 0pt !important;
+}
+/* What it does: Fixes webkit padding issue. Fix for Yahoo mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
+table {
+	border-spacing: 0 !important;
+	border-collapse: collapse !important;
+	table-layout: fixed !important;
+	margin: 0 auto !important;
+}
+table table table {
+	table-layout: auto;
+}
+/* What it does: Uses a better rendering method when resizing images in IE. */
+img {
+	-ms-interpolation-mode: bicubic;
+}
+/* What it does: Overrides styles added when Yahoo's auto-senses a link. */
+.yshortcuts a {
+	border-bottom: none !important;
+}
+/* What it does: Another work-around for iOS meddling in triggered links. */
+a[x-apple-data-detectors] {
+	color: inherit !important;
+}
+</style>
+
+    <!-- Progressive Enhancements -->
+    <style type="text/css">
+        h1{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:2em;
+			font-style:italic;
+			font-weight:bold;
+			line-height:100%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h2{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1.4em;
+			font-style:normal;
+			font-weight:normal;
+			line-height:100%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h3{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1.4em;
+			font-style:normal;
+			font-weight:bold;
+			line-height:120%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h4{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1.1em;
+			font-style:normal;
+			font-weight:bold;
+			line-height:120%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h5{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:14px;
+			font-style:normal;
+			font-weight:normal;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		p{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1em;
+			font-style:normal;
+			font-weight:normal;
+			line-height:165%;
+			letter-spacing:normal;
+			text-align:left;
+		}
+        /* What it does: Hover styles for buttons */
+        .button-td,
+        .button-a {
+            transition: all 100ms ease-in;
+        }
+        .button-td:hover,
+        .button-a:hover {
+            background: #555555 !important;
+            border-color: #555555 !important;
+        }
+
+        /* Media Queries */
+        @media screen and (max-width: 700px) {
+
+            .email-container {
+                width: 100% !important;
+            }
+
+            /* What it does: Forces elements to resize to the full width of their container. Useful for resizing images beyond their max-width. */
+            .fluid,
+            .fluid-centered {
+                max-width: 700 !important;
+                height: auto !important;
+                margin-left: auto!important;
+                margin-right: auto!important;
+            }
+            /* And center justify these ones. */
+            .fluid-centered {
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+
+            /* What it does: Forces table cells into full-width rows. */
+            .stack-column,
+            .stack-column-center {
+                display: block !important;
+                width: 100% !important;
+                max-width: 700 !important;
+                direction: ltr !important;
+            }
+            /* And center justify these ones. */
+            .stack-column-center {
+                text-align: center !important;
+            }
+        
+            /* What it does: Generic utility class for centering. Useful for images, buttons, and nested tables. */
+            .center-on-narrow {
+                text-align: center !important;
+                display: block !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+                float: none !important;
+            }
+            table.center-on-narrow {
+                display: inline-block !important;
+            }
+                
+        }
+
+    </style>
+    </head>
+    <body bgcolor="#FFFFFF" width="100%" style="margin: 0; padding:0" yahoo="yahoo">
+    <table bgcolor="FFFFFF" cellpadding="0" cellspacing="0" border="0" height="100%" width="100%" style="border-collapse:collapse;">
+      <tr>
+        <td>
+            
+            <!-- Visually Hidden Preheader Text : BEGIN -->
+            <div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: sans-serif;">"Maldade", de Jørn Lier Horst</div>
+            <!-- Visually Hidden Preheader Text : END --> 
+            
+            <!-- Cabeçalho : COMEÇO, alterar imagem -->
+            <table align="center" width="100%" class="email-container">
+            <tr>
+                <td align="center" style="font-size: 0.6em; font-weight: normal; line-height: 1em; color: #000000; font-family: sans-serif; padding:10px 0px 0px 0px">Se não conseguir visualizar corretamente este e-mail <a href="https://nldq.github.io/nl-maldade/">clique aqui</a></td>
+			</tr>
+			<tr>
+				<td style="padding: 0.4em 0em 0em 0em; text-align: center" class="full-width-image"><img src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21123445&authkey=%21AMxe9px-h8g3JY0&width=700&height=50" alt="Dom Quixote" border="0" align="center" width="700" style="width: 100%; max-width: 700px; height: auto;"></td>
+            </tr>
+			<tr>
+				<td style="padding: 0em 0em 0em 0em; text-align: center" class="full-width-image"><img src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21137463&authkey=%21AKGGqpfz3nTAxPs&width=700&height=400" alt="&quot;Maldade&quot;, de Jørn Lier Horst" border="0" width="700" align="center" style="width: 100%; max-width: 700px; height: auto;"></td>
+			</tr>
+          </table>
+            <!-- Cabeçalho : FIM --> 
+            
+            <!-- Email Body : BEGIN -->
+            <table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="700" class="email-container">
+            
+<!-- Livro : COMEÇO-->
+            
+				<tr>
+				<td dir="ltr" align="center" valign="top" width="100%" style="padding: 0px;"><table align="center" border="0" cellpadding="0" cellspacing="0" width="90.5%">
+					<table align="center" width="100%">
+						<tbody>
+							<tr>
+							<td valign="top" align="center" style="padding:0px 60px 30px 60px;">
+							<h1 style="color:#cf1619">Maldade</h1>
+							<h2>Jørn Lier Horst</h2>
+							<h5>Tradução de Francisco Pereira da Silva</h5>
+							<h4>Nas livrarias a 14 de Maio</h4>
+								<br>
+								<h4 style="font-weight:normal"><strong>A história que inspirou a segunda temporada da série <em>Wisting</em>, transmitida no AMC</strong></h4>
+								<p style="text-align:left !important"><br><strong>Um caso arquivado</strong> ganha nova vida quando o corpo de uma jovem mulher é encontrado na floresta. Ela foi morta e desmembrada de uma forma que lembra estranhamente a assinatura do assassino em série Tom Kerr. Mas Kerr está a cumprir o seu quarto ano de prisão e não poderia ter cometido este homicídio. Em seu lugar, tudo aponta para o homem a quem a imprensa chamou o Outro – o parceiro de Kerr, que não chegou a ser encontrado.<br>
+								<strong>Adrian Stiller</strong> prepara uma reconstituição na qual Kerr conduzirá a polícia aos restos mortais de uma antiga vítima. O local situa-se numa península com cerca de quinhentos hectares de florestas e terras agrícolas, e Wisting fica com a segurança a seu cargo. A sua filha Line foi destacada para documentar todo o processo. Kerr está acorrentado e algemado. A polícia tem cães e armas. Mas a reconstituição corre desastrosamente mal e, quando Kerr foge, desaparecendo na floresta, Wisting percebe que será transformado em bode expiatório.<br><br>
+								<strong>Agora</strong>, dois cruéis assassinos estão de novo a monte e, com o relógio em contagem decrescente até ao próximo homicídio, Wisting tem de arriscar tudo para deter um mal terrível antes que este ataque de novo.
+								</p>
+								<p style="text-align:center"><br><strong><em>«Um aspecto que ressalta na escrita de Horst é a importância da natureza e do clima sobre a vida humana e os sentimentos. E também um humor que por vezes é bastante negro»</em></strong><br>José Riço Direitinho</p>
+								<p style="text-align:center"><strong><em>«Horst, um ex-polícia, prova-nos mais uma vez que o policial de enfoque processual pode ser implacavelmente emocionante. Ele cria uma sensação de ameaça real enquanto o assassino continua a escapar à captura com a ajuda de um cúmplice conhecido apenas como o Outro. A identidade deste sádico astuto revela-se uma total surpresa.»</em></strong><br>The Times</p>
+								<p style="text-align:center"><strong><em>«Horst é autor de alguns dos melhores policiais escandinavos do momento. Os seus livros têm enredos soberbos e viciantes, as personagens são maravilhosamente concebidas.»</em></strong><br>Yrsa Sigurdardóttir</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			<hr width="91%" color="cf1619">
+			<br><br>
+<!-- Sobre o autor -->
+<table align="center" width="100%">
+	<tr>
+        <td width="100%" class="stack-column-center">
+            <table align="left" width="250" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="Jørn Lier Horst." src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21137458&authkey=%21AF3DHxS3okQx50A&width=280&height=420" width="250">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <table align="right" width="400" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td valign="top" style="padding: 0px 20px 0px 0px">
+                        	<p><strong>Jørn Lier Horst</strong> nasceu em Bamble, em 1970, e é um dos principais escritores de policiais da atualidade, tendo a sua obra sido distinguida com inúmeros prémios.<br>
+							Ex-investigador da polícia norueguesa, conhece bem o meio e os métodos sobre os quais escreve, impregnando todos os seus trabalhos de um realismo e <em>suspense</em> incomparáveis.<br>
+							Estreou-se na escrita em 2004, com o livro <em>Nøkkelvitnet</em> (<em>Testemunha-Chave</em>), baseado num crime real, e ganhou fama literária com os thrillers que têm o detetive William Wisting como protagonista, uma série que atingiu todos os tops de vendas e que foi adaptada para televisão.<br>
+							Em Portugal estão publicados os seus livros <em>Fechada para o Inverno</em> (Prémio dos Livreiros da Noruega 2011), <em>Cães de Caça</em> (Prémio Riverton/ Revólver Dourado 2012, Prémio Chave de Vidro 2013 e Prémio Martin Beck 2014), <em>O Homem das Cavernas</em> (Prémio Petrona 2016) e <em>A Porta Oculta</em>; e os livros da série Blix <em>Ponto Zero</em> e <em>Cortina de Fumo</em>, escritos a quatro mãos com Thomas Enger.<br><br>
+							<strong>Maldade</strong> é o terceiro livro da série Casos Arquivados do famoso inspetor-chefe William Wisting, seguindo-se a <em>O Código Katharina</em> (Prémio Petrona 2019) e <em>A Cabana</em>.
+							</p>
+						</td>
+					</tr>
+            	</tbody>
+			</table>
+        </td>
+    </tr>
+</table>
+<br>
+<hr width="91%" color="cf1619">
+<br>
+<!-- Outros livros da autora-->
+<table align="center" width="80%">
+	<h3 style="color:#cf1619">Outros livros do autor</h3>
+	<tr>
+        <td align="center" width="100%" class="stack-column-center">
+            <table align="left" width="135" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="Fechada para o Inverno." src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21137466&authkey=%21ABgK0lQx3-qw28Q&width=140&height=210" width="130">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <table align="left" width="135" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="Cães de Caça." src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21137464&authkey=%21AAIYvnxuAaHMdTY&width=140&height=210" width="130">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <table align="left" width="135" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="O Homem das Cavernas." src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21137465&authkey=%21AF8_d8qcb2tlLHY&width=140&height=210" width="130">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<table align="left" width="135" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="A Porta Oculta." src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21137460&authkey=%21AES-ODCwKKW0cuo&width=140&height=210" width="130">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+        </td>
+    </tr>
+</table>
+<table align="center" width="80%">
+	<tr>
+        <td align="center" width="100%" class="stack-column-center">
+            <table align="left" width="135" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="Ponto Zero." src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21137459&authkey=%21AFoGuKrYea8lo04&width=140&height=210" width="130">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <table align="left" width="135" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="Cortina de Fumo." src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21137462&authkey=%21AJPlTh5-CENfMuc&width=140&height=210" width="130">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <table align="left" width="135" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="O Código Katharina." src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21137461&authkey=%21AFFvHjvmbPWW8yA&width=140&height=210" width="130">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<table align="left" width="135" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="A Cabana." src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21137457&authkey=%21AGKFsFx6fSNTjso&width=140&height=210" width="130">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+        </td>
+    </tr>
+</table>
+<br>
+<hr width="91%" color="cf1619">
+<br>
+<!-- Capa e especificações -->
+<table align="center" width="100%">
+	<tr>
+        <td width="100%" class="stack-column-center">
+            <table align="left" width="250" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="&quot;Maldade&quot;, de Jørn Lier Horst ." src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21134926&authkey=%21AGNoMmuejKZi1uM&width=1042&height=1564" width="250">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <table align="right" width="400" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td valign="top" style="padding: 0px 20px 0px 0px">
+                        	<p style="line-height: 250%">
+							Literatura Policial<br>
+							368 páginas<br>
+							19,70 Euros<br>
+							ISBN: 978-972-20-8244-0<br>
+							1.ª Edição: Maio 2024<br>
+							Dom Quixote
+							</p>
+						</td>
+					</tr>
+            	</tbody>
+			</table>
+        </td>
+    </tr>
+</table>
+					<table align="center" width="100%">
+	<tbody>
+		<tr>
+			<td valign="top" align="center" style="padding: 10px">
+				<p style="text-align: center; line-height: 150%">Para mais informações:<br>
+				Rui Breda<br>
+				938 527 410<br></p>
+			</td>
+		</tr>
+		<tr>
+				<td style="padding: 0.4em 0em 0em 0em; text-align: center" class="full-width-image"><img src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21123446&authkey=%21AF8CaGSbZcojQpU&width=700&height=125" alt="Dom Quixote" border="0" align="center" width="700" style="width: 100%; max-width: 700px; height: auto;"></td>
+            </tr>
+	</tbody>
+					</table>
+                  </table></td>
+              </tr>
+          </table>
+            <!-- Email Body : END --> 
+            
+            <!-- Email Footer : BEGIN -->
+            
+            <!-- Email Footer : END -->
+            
+			</td></tr></table>
+</body>
+</html>
